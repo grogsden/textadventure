@@ -1,6 +1,6 @@
 let rooms = {
     "start": {
-        "description": "You are in a dark, musty room. You can see a faint light to the <b>north</b> and you hear a distant tapping to the <b>west</b>",
+        "description": "You are in a dark, musty room. You can see a faint light to the <b>north</b> and you hear a distant tapping to the <b>west</b><p> Type Help for list of commands.</p>",
         "directions": {
             "north": "clearing1",
             "west": "bridge1"
@@ -18,6 +18,9 @@ let rooms = {
         "description": "You arrive at the lighthouse and walk up to the door. A strange old lady opens the door, what do you do?",
         "directions": {
             "south": "clearing1"
+        },
+        "npc": {
+            "old lady": "The old lady farts"
         }
     },
     "trolls": {
